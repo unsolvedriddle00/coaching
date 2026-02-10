@@ -1,0 +1,46 @@
+# Robots.txt for Adarsh Path Coaching Classes
+# https://adarshpathcoaching.me/
+
+# Allow all search engines to crawl the entire site
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://adarshpathcoaching.me/sitemap.xml
+
+# Crawl-delay to be respectful to server resources
+Crawl-delay: 1
+
+# Specific directives for major search engines
+
+# Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Google Images
+User-agent: Googlebot-Image
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# Yandex
+User-agent: Yandex
+Allow: /
+
+# Disallow access to any backend or admin areas if they exist
+# User-agent: *
+# Disallow: /admin/
+# Disallow: /private/
+# Disallow: /cgi-bin/
